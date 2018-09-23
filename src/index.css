@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #7434ed;
+}
+
+.header h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+/*flexbox*/
+
+.container {
+  display: flex;
+}
+
+/*flexbox - left box*/
+
+.left_section {
+  flex: 50%;
+  height: 100vh;
+  padding: 4%;
+  margin-top: 1vh;
+}
+
+/*flexbox - search*/
+
+.left_section .search {
+  display: flex;
+  height: 5.5vh;
+}
+.left_section .input {
+  flex: 60%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  text-indent: 10px;
+}
+
+.left_section .button {
+  flex: 12%;
+  color: white;
+  font-size: 0.7rem;
+  border: 1px solid #7434ed;
+  background-color: #7434ed;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 2%;
+}
+
+::-webkit-input-placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+/*flexbox - left table*/
+
+.left_section .left_table {
+  margin-top: 8%;
+}
+
+.left_section .left_table {
+  margin-top: 7%;
+}
+
+/*flexbox - right box*/
+
+.right_section {
+  flex: 50%;
+  background-color: rgba(116, 52, 237, 0.1);
+  padding: 4%;
+  height: 100vh;
+}
+
+/*table*/
+
+thead {
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+thead .name {
+  width: 15%;
+}
+
+thead .language {
+  width: 20%;
+}
+
+thead .latest_tag {
+  width: 10%;
+}
+
+thead .add_remove {
+  width: 10%;
+}
+
+tbody {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+tbody a {
+  color: #7434ed;
+  text-align: right;
+}
+
+tbody .linkNoFormating {
+  text-decoration: none;
+  color: black;
+}
+
+tbody td:last-child {
+  text-align: right;
+}
