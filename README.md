@@ -1,4 +1,4 @@
-# Shopify Web Development Intern Challenge
+# Shopify Web Development Intern Challenge 🛒🛍
 
 ### Task
 
