@@ -1,5 +1,7 @@
 # Shopify Web Development Intern Challenge 🛒🛍
 
+Deployed at https://ivana-shopify-app.herokuapp.com/
+
 ### Task
 
 Build a web app to search Github repositories, favourite repos, manage favourites based on the provided screenshot.
@@ -12,6 +14,7 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
 
 ```
 shopify-app/
+  server.js
   README.md
   package.json
   public/
